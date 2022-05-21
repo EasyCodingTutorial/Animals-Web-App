@@ -1,0 +1,8 @@
+.about_header {
+  position: relative;
+}
+.about_header img {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}

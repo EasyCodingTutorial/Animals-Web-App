@@ -1,0 +1,95 @@
+.header {
+  position: relative;
+}
+.header img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.header .Overlay,
+.second_header .Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.4;
+}
+.header .HeaderContent {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+.header .HeaderContent h6 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.header .HeaderContent h6 span {
+  font-size: 45px;
+  font-weight: 900;
+  color: var(--main);
+}
+
+/* About */
+.about {
+  margin: 150px auto;
+}
+.about img {
+  height: 400px;
+  object-fit: cover;
+  width: 600px;
+}
+.about .col-sm-6 h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--main);
+}
+.about .col-sm-6 h5 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 20px auto;
+}
+
+/* Details */
+.details {
+  margin-bottom: 150px;
+}
+.details .box {
+  overflow: hidden;
+  border: 1px solid #000;
+  border-top: none !important;
+}
+.details .box:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.details .box_content {
+  padding: 10px;
+}
+.details .box_content h6 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.details .box_content .btn {
+  width: 100%;
+}
+.details .mid {
+  margin-top: 80px;
+}
+
+/* second Header */
+.second_header {
+  position: relative;
+  margin-bottom: 150px;
+}
+.second_header img {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,23 @@
+.gallery {
+  position: relative;
+}
+.gallery img {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}
+.gallery_main {
+  margin: 150px auto;
+}
+.gallery_main .box {
+  overflow: hidden;
+}
+.gallery_main .box img {
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+}
+.gallery_main .box:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}

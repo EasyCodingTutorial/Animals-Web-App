@@ -1,0 +1,21 @@
+.contact {
+  position: relative;
+}
+.contact img {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}
+.contact_form {
+  background: #ccc;
+  padding: 20px;
+}
+.contact_form h6 {
+  font-size: 50px;
+  margin: 20px auto;
+  font-weight: 600;
+  text-align: center;
+}
+.contact_form .btn {
+  margin: 10px auto;
+}
